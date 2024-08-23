@@ -1,5 +1,5 @@
-% Full_data = DataCase1;
-% Full_data = DataCase2;
+% Full_data = Dataset_Case1;
+% Full_data = Dataset_Case2;
 % Creating a Data Table
 columnNames =  {'Reference_Speed', 'Measured_Speed', 'Reference_Iq', 'Error_measured'};
 Table_data = array2table(Full_data, 'VariableNames', columnNames);
